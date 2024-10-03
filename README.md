@@ -96,7 +96,7 @@ TODO: Put in image
     ```
 1. The code should be the same on both computers. Congrats on resolving your first merge conflict!
 
-## Running the Java
+## Running the Project
 1. Both partners should compile the project. Make sure that you are in the root of the project's directory.
     ```
     javac src/*.java
@@ -105,5 +105,25 @@ TODO: Put in image
     ```
     java -cp src SayApp
     ```
+1. Follow the prompts to give input and run the program.
 1. Make sure it works on both computers.
+
+## Updating the project
+1. Read through the code and understand what it's doing. Talk with your partner about it! Talk about any object-oriented practices you see occuring. Talk about what data structures are used.
+1. Each partner should make a new class that implements the Animal interface. Each person should do this on their own computer! There is some ASCII art [provided below](#sample-ascii-art), but feel free to add your own if you prefer. If you copy from some source on the internet please make sure to add attribution in a comment.
+1. Always make sure to save and compile your files again before re-running the program. As you're working, follow good git practices of pulling, editing, adding, committing, and pushing.
+1. Add your animal to the `animalList` method in `SayApp.java`
+1. Make sure to push and pull each other's changes.
+1. Merge conflicts may arise! This is OK! Keep calm and resolve them as they come up.
+
+## Submitting
+1. Have ONLY PARTNER A make a pull request against the original repository.
+1. Have partner A give the URL of the pull request to partner B.
+1. BOTH PARTNERS MUST SUBMIT THE URL OF THE PULL REQUEST TO CANVAS. You will both be submitting the same URL.
+
+## Want more?
+Try updating the program so that it can handle multiple lines of text. Or make any other change you find interesting!
+
+## Sample ASCII art
+TODO: add samples
 

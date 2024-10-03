@@ -2,6 +2,8 @@
  * The Cow class represents a cow and provides its ASCII art representation.
  * This class implements the Animal interface and overrides the getAnimalArt 
  * and toString methods.
+ * 
+ * Cow by Tony Monroe. See license file for more details.
  */
 class Cow implements Animal {
 
