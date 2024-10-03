@@ -80,11 +80,15 @@ We will now artificially trigger a merge conflict. When we follow good git pract
     git status
     ```
 1. ONLY the error partner should open the README in VSCode. There should be both changes and extra text separating them. It will look something like this:
-TODO: Put in image
+    ![An image showing a merge conflict in VS Code](./images/conflict.PNG)
 1. Resolve the merge conflict to include both of the changes and delete the extra lines.
 1. Mark the conflicted file as resolved with git add.
     ```
     git add README.md
+    ```
+1. Run git status again. The README should be in green.
+    ```
+    git status
     ```
 1. Commit the confict resolution:
     ```
