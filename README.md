@@ -1,7 +1,15 @@
 # grcsay
 An exercise for collaborating with git / GitHub. Please read the directions CAREFULLY! I recommend focusing on the changes to the README before reading the Java code.
 
-## Setup
+## Setting up git merging strategy
+1. Each partner should run these commands on their own terminal. DO NOT SKIP THIS PART!!!
+    ```
+    git config --global pull.ff true
+    git config --global pull.rebase false
+    ```
+    This will tell git to perform fast forwards when possible, never rebase, and create merge commits when necessary. We will not cover the differences between these in-depth in class, but feel free on your own time to research them using search engines or AI if you're interested. Explore your curiosity!
+
+## Setup project
 1. Choose one partner to be Partner A, one partner to Partner B.
 1. Have ONLY Partner A fork this repository. PARTNER B SHOULD NOT FORK.
 1. Have Partner A add Partner B as a collaborator on their fork. Follow [these directions](https://docs.github.com/en/enterprise-server@3.10/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository#inviting-a-collaborator-to-a-personal-repository).
@@ -16,14 +24,6 @@ An exercise for collaborating with git / GitHub. Please read the directions CARE
     ```
     code .
     ```
-
-## Setting up git merging strategy
-1. Each partner should run these commands on their own terminal. DO NOT SKIP THIS PART!!!
-    ```
-    git config --global pull.ff true
-    git config --global pull.rebase false
-    ```
-    This will tell git to perform fast forwards when possible, never rebase, and create merge commits when necessary. We will not cover the differences between these in-depth in class, but feel free on your own time to research them using search engines or AI if you're interested. Explore your curiosity!
 
 ## Making a change to the README
 We will first practice making changes that do not trigger a merge conflict. In general, this is what we hope to happen!
