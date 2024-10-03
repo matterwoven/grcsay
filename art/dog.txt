@@ -1,0 +1,6 @@
+By Maija Haavisto https://www.asciiart.eu/animals/dogs
+
+"        \\   .\n" +
+"         \\  ..^____/\n" +
+"            `-. ___ )\n" +
+"              ||   ||\n";
