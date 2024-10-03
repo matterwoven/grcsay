@@ -67,7 +67,7 @@ We will now artificially trigger a merge conflict. When we follow good git pract
 
 1. Have BOTH Partner A and Partner B edit the below line. Each person should make it say something different.
     ```
-    MODIFY THIS LINE
+    EDIT THIS LINE
     ```
 1. Have BOTH Partner A and Partner B add, commit, and push the changes. You can refer to the above steps for a refresher on how to add/commit/push. One of the partners will get an error saying that their changes can't be pushed. This is OK and expected. Today we are practicing how to resolve this error.
 1. Have the error partner pull the other partner's changes:
@@ -75,6 +75,10 @@ We will now artificially trigger a merge conflict. When we follow good git pract
     git pull
     ```
 1. There will be an message about a merge conflict. This is expected! This is what we're practicing how to resolve.
+1. Have the partner who got the error run git status. It should tell you that there is a merge conflict and you both have modified `README.md`
+    ```
+    git status
+    ```
 1. ONLY the error partner should open the README in VSCode. There should be both changes and extra text separating them. It will look something like this:
 TODO: Put in image
 1. Resolve the merge conflict to include both of the changes and delete the extra lines.
