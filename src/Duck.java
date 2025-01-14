@@ -14,7 +14,9 @@ class Duck implements Animal {
      */
     @Override
     public String getAnimalArt() {
-        return "TODO";
+        return  "        \\  \n" +
+                "         >o)\n" +
+                "         (_>";
     }
   
     /**
