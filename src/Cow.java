@@ -4,6 +4,7 @@
  * and toString methods.
  * 
  * Cow by Tony Monroe. See license file for more details.
+ * Changes made here to cow
  */
 class Cow implements Animal {
 
